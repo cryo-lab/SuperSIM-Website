@@ -3,7 +3,7 @@
 
 Welcome to the official website repository for **SuperSIM**, a benchmarking framework designed to evaluate the performance of neural networks on superconducting **Josephson devices**, specifically focusing on **AQFP-based PIM architectures**.  
 
-🔗 **Live Site:** [cryo-lab.github.io/SuperSIM-Website](https://cryo-lab.github.io/SuperSIM-Website/) *(Once deployed)*  
+🔗 **Live Site:** [cryo-lab.github.io/SuperSIM-Website](https://cryo-lab.github.io/SuperSIM-Website/) 
 
 ---
 
@@ -17,7 +17,7 @@ SuperSIM provides in-depth **architecture-level simulations and performance asse
 ✅ Offers **PyTorch compatibility** for neural network development  
 ✅ Includes **cycle-accurate simulations** for performance evaluation  
 
-📄 **Reference Paper:** [SuperSIM: A Comprehensive Benchmarking Framework for Neural Networks Using Superconductor Josephson Devices](#) *(Add link if available)*  
+📄 **Reference Paper:** [SuperSIM: A Comprehensive Benchmarking Framework for Neural Networks Using Superconductor Josephson Devices](#) 
 
 ---
 
