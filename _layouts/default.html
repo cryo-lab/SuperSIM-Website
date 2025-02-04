@@ -8,24 +8,34 @@
 </head>
     
 <body>
-<nav>
-     <a href="{{ site.baseurl }}/">Home</a> |
-     <a href="{{ site.baseurl }}/research/">Research</a> |
-     <a href="{{ site.baseurl }}/tools/">Tools</a> |
-    <a href="{{ site.baseurl }}/publications/">Publications</a> |
-    <a href="{{ site.baseurl }}/team/">Team</a> |
-    <a href="{{ site.baseurl }}/contact/">Contact</a>
-</nav>
-    
+    <nav>
+        <button class="menu-toggle">☰ Menu</button>
+        <div class="menu">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/research/">Research</a>
+            <a href="{{ site.baseurl }}/tools/">Tools</a>
+            <a href="{{ site.baseurl }}/publications/">Publications</a>
+            <a href="{{ site.baseurl }}/team/">Team</a>
+            <a href="{{ site.baseurl }}/contact/">Contact</a>
+        </div>
+    </nav>
 
-<div class="content">
-    {{ content }}
-</div>
+    <main>
+        {{ content }}
+    </main>
 
-<footer>
-    <p>© 2025 SuperSIM | Contact: <a href="mailto:olivia.chen@ieee.org">olivia.chen@ieee.org</a></p>
-</footer>
+    <footer>
+        <p>&copy; 2025 SuperSIM | Contact: <a href="mailto:olivia.chen@ieee.org">olivia.chen@ieee.org</a></p>
+    </footer>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".menu-toggle").addEventListener("click", function() {
+                document.querySelector(".menu").classList.toggle("active");
+            });
+        });
+    </script>
 </body>
+
 </html>
 
