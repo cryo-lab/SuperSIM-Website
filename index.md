@@ -14,8 +14,8 @@ Welcome to the official website of **SuperSIM**, a comprehensive benchmarking fr
 - **Cycle-accurate simulation for detailed benchmarking**
 
 ## 📖 Learn More
-- [Research](research.md)
-- [Tools](tools.md)
-- [Publications](publications.md)
-- [Team](team.md)
-- [Contact](contact.md)
+- [Research](/research/)
+- [Tools](/tools/)
+- [Publications](/publications/)
+- [Team](/team/)
+- [Contact](/contact/)
